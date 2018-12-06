@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+ul {
+  background-color: #333;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  position: fixed;
+  width: 15%;
+}
+
+li a {
+  color: white;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li .active {
+  background-color: maroon;
+  color: white;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.h1-header {
+  margin-top: 0;
+
+}
+.header-container {
+  background-color: #3339;
+  margin-left: 205px;
+  position:relative;
+  text-align: center;
+}
+
+td {
+  background-color: #dff9fb;
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+}
+
+th {
+  background-color: #95afc0;
+  font-family: 'Montserrat', monospace;
+  text-align: center;
+}
+
+
+
+.nav-container {
+  margin: 0;
+  position: fixed;
+}
+
+.article-container {}
+
+.top-section-container {}
+
+.bottom-section-container {}
+
+.aside-container {}
+
+.footer-container {
+  background-color: #333;
+  padding: 50px 0 5px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #EAF6F6;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: gray;
+}
+
+.end-logo {
+  color: #EAF6F6;
+  font-size: 1rem;
+  padding: 20px 0;
+}
